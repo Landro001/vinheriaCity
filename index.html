@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página principal</title>
+    <link href="style.css" type="text/css" rel="stylesheet" />
+  </head>
+
+  <body id="pagina">
+    <div class="container">
+      <center>
+        <header class="cabecalho">
+          <img
+            class="cabecalho__logo"
+            src="images/logovinicola.jpg"
+            alt="Logo"
+          />
+          <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__links" href="index.html">Home</a>
+            <a class="cabecalho__menu__links" href="pages/quiz.html">Quiz</a>
+            <a class="cabecalho__menu__links" href="pages/sobre.html">Sobre</a>
+            <a class="cabecalho__menu__links" href="pages/endereco.html">Endereco</a>
+            <a class="cabecalho__menu__links" href="pages/contato.html">Contato</a>
+          </nav>
+          <div class="cabecalho__selecaoCor">
+            <button id="botao1" onclick="modoClaro()">Claro</button>
+            <button id="botao2" onclick="modoEscuro()">Escuro</button>
+            <button id="botao3" onclick="modoNight()">Night</button>
+          </div>
+        </header>
+      </center>
+      <div class="box">
+        <main class="box__conteudo">
+          <h1 class="box__conteudo__titulo">Seja bem vindo a Vinheria City</h1>
+          <br>
+          <p class="box__conteudo__texto">
+            Fique a vontade para conhecer o nosso site.
+          </p>
+          <br>
+          <p class="box__conteudo__texto">
+            Com os botão em cima você pode alterar a cor de fundo do site para a
+            de sua preferência.
+          </p>
+        </main>
+      </div>
+    </div>
+    <footer class="rodape">@2023 - Todos os diretos reservados - Desevolvido por Leandro</footer>
+
+    <script>
+        alert("Seja bem vindo ao nosso site!") 
+    </script>
+
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
